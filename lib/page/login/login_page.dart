@@ -166,29 +166,29 @@ class _LoginPageState extends State<LoginPage> {
             ),
           ),
           SizedBox(height: ScreenUtil.getInstance().getAdapterSize(10)),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Text(
-                'Bạn chưa có tài khoản? ',
-                style: TextStyle(
-                  fontSize: ScreenUtil.getInstance().getAdapterSize(10),
-                  color: Colors.black45,
-                ),
-              ),
-              TextButton(
-                onPressed: () {},
-                child: Text(
-                  'Đăng ký',
-                  style: TextStyle(
-                    color: Colors.pinkAccent,
-                    fontSize: ScreenUtil.getInstance().getAdapterSize(10),
-                  ),
-                ),
-              )
-            ],
-          ),
+          // Row(
+          //   mainAxisAlignment: MainAxisAlignment.center,
+          //   crossAxisAlignment: CrossAxisAlignment.center,
+          //   children: [
+          //     Text(
+          //       'Bạn chưa có tài khoản? ',
+          //       style: TextStyle(
+          //         fontSize: ScreenUtil.getInstance().getAdapterSize(10),
+          //         color: Colors.black45,
+          //       ),
+          //     ),
+          //     TextButton(
+          //       onPressed: () {},
+          //       child: Text(
+          //         'Đăng ký',
+          //         style: TextStyle(
+          //           color: Colors.pinkAccent,
+          //           fontSize: ScreenUtil.getInstance().getAdapterSize(10),
+          //         ),
+          //       ),
+          //     )
+          //   ],
+          // ),
         ],
       ),
     );
